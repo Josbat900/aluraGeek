@@ -1,38 +1,52 @@
-{"productos":[
+{
+  "productos": [
     {
-        "name":"Mass gainer",
-        "price":"35.00",
-        "url":"https://suplementos.b-cdn.net/proteinas/super-mass-gainer-vainilla-6lbs-500x500.webp",
-        "id":"0"
+      "name": "Mass gainer",
+      "price": "35.00",
+      "url": "https://suplementos.b-cdn.net/proteinas/super-mass-gainer-vainilla-6lbs-500x500.webp",
+      "id": "0"
     },
     {
-        "name":"Straps",
-        "price":"10.00",
-        "url":"https://rlgrips.com/wp-content/uploads/2024/02/strap-rojo-transparente.png",
-        "id":"0"
+      "name": "Straps",
+      "price": "10.00",
+      "url": "https://rlgrips.com/wp-content/uploads/2024/02/strap-rojo-transparente.png",
+      "id": "0"
     },
     {
-        "name":"Cinturon",
-        "price":"35.00",
-        "url":"https://s.alicdn.com/@sc04/kf/Hdfa5bbefe3b34cd5b887bb47a45f47cd2.png_300x300.jpg",
-        "id":"0"
+      "name": "Cinturon",
+      "price": "35.00",
+      "url": "https://s.alicdn.com/@sc04/kf/Hdfa5bbefe3b34cd5b887bb47a45f47cd2.png_300x300.jpg",
+      "id": "0"
     },
     {
-        "name":"Straps",
-        "price":"10.00",
-        "url":"https://rlgrips.com/wp-content/uploads/2024/02/strap-rojo-transparente.png",
-        "id":"0"
+      "name": "Straps",
+      "price": "10.00",
+      "url": "https://rlgrips.com/wp-content/uploads/2024/02/strap-rojo-transparente.png",
+      "id": "0"
     },
     {
-        "name":"Cinturon",
-        "price":"35.00",
-        "url":"https://s.alicdn.com/@sc04/kf/Hdfa5bbefe3b34cd5b887bb47a45f47cd2.png_300x300.jpg",
-        "id":"0"
+      "name": "Cinturon",
+      "price": "35.00",
+      "url": "https://s.alicdn.com/@sc04/kf/Hdfa5bbefe3b34cd5b887bb47a45f47cd2.png_300x300.jpg",
+      "id": "0"
     },
     {
-        "name":"Mass gainer",
-        "price":"35.00",
-        "url":"https://suplementos.b-cdn.net/proteinas/super-mass-gainer-vainilla-6lbs-500x500.webp",
-        "id":"0"
+      "name": "Mass gainer",
+      "price": "35.00",
+      "url": "https://suplementos.b-cdn.net/proteinas/super-mass-gainer-vainilla-6lbs-500x500.webp",
+      "id": "0"
+    },
+    {
+      "id": "b00ef971-a6ca-43b9-9bf4-e2d87dc57cde",
+      "name": "muñequeras",
+      "price": "12.00",
+      "url": "https://ae01.alicdn.com/kf/S34f336cd1cd14ac99ea7361f195ed537w.png_640x640.png_.webp"
+    },
+    {
+      "id": "d83f3889-45be-4cf2-b877-09b64d89e1c9",
+      "name": "12",
+      "price": "12",
+      "url": "https://junglesocks.com/cdn/shop/files/munequera_leopardo.webp?v=1708458973&width=533"
     }
-]}
+  ]
+}
