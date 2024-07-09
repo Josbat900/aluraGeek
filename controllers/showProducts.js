@@ -1,38 +1,33 @@
+import { conexion } from "./conexion.js";
+
 const $ = el => document.querySelector(el); 
 
 const $productList = $('#productList');
-const $form = $('form')
 
-// const $productName = $('#name');
-// const $productPrice = $('#price');
-// const $productUrl = $('#url');
-// const $buttonSave = $('#save');
-
-$form.addEventListener('submit', async(e)=>{
-    e.preventDefault();
-
-    const t = e.target;
-    const name = t.name.value;
-    const price = t.price.value;
-    const url = t.url.value;
-    
-    const newCard = 
-        `<div class="product">
+function newCard(name,price,url) {
+    const card = document.createElement("div");
+    card.className = "product";
+    card.innerHTML = `
                             <div class="productImg"><img src="${url}" alt="product"
                                     class="productImagen">
                             </div>
-                            <p class="productName">${name}</p>
+                            <p class="productName">${name}hola</p>
                             <div class="priceTrash">
-                                <p class="price">$ ${price}</p>
+                                <p class="price">$ ${price}12</p>
                                 <div class="trash">
                                     <button>
                                         <img src="svgs/trash.svg" alt="trash">
                                     </button>
                                 </div>
                             </div>
-        </div>
     `
+    return card
+}
 
-    $productList.innerHTML = $productList.innerHTML + newCard
-})
+async function conexionDb(){
+    const list = await conexion.conexionDb()
 
+    list.forEach(producto=>$productList.appendChild(newCard(producto.name,producto.price,producto.url)))
+}
+
+conexionDb()
