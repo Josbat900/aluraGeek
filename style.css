@@ -1,0 +1,180 @@
+ * {
+     font-family: "Press Start 2P", system-ui;
+     font-weight: 400;
+     font-style: normal;
+     padding: 0;
+     margin: 0;
+ }
+p{
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 400;
+        font-style: normal; 
+    font-size: 15px;
+}
+h3{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    height: 25px;
+}
+
+input {
+    width: 392px;
+    height: 58px;
+    padding: 0 10px 0 10px;
+    gap: 0px;
+    border: 3px solid #03318C;
+    border-radius: 50px;
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: left;
+    color: #03318C;
+}
+/* --header-- */
+
+ .header {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: blueviolet;
+     width: auto;
+     height: 96px;
+ }
+
+ .headerDiv {
+     display: flex;
+     flex-direction: row;
+     text-align: center;
+     align-items: center;
+ }
+
+ .headerDiv>h2 {
+     color: whitesmoke;
+ }
+
+/* --main-- */
+
+ .main{
+    width: auto;
+    height: auto;
+    padding: 60px 40px 60px 40px;
+    gap: 70px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+ }
+
+ .productsSection{
+    width: 758px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+ }
+
+ 
+
+ .productContainer {
+     height: 971px;
+     width: 678px;
+     overflow-y: scroll;
+     scrollbar-color: #D6D6D6 rgba(255, 255, 255, 0);
+     display: flex;
+     justify-content: space-around;
+     box-shadow: -12px 10px 5.8px 0px #00000040;
+ }
+ .products {
+    justify-content: center;
+     width: 640px;
+     height: 940px;
+     grid-area: content;
+     display: flex;
+     flex-flow: row wrap;
+     gap: 10px;
+    align-content: space-around;
+    margin: 15px 0px 15px 0px;
+ }
+
+ .product {
+     background-color: #5D04d9;
+     width: 193px;
+     height: 258px;
+     border: 3px solid black;
+     gap: 10px;
+     margin: 15px 0px 15px 0px;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .productImg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 176px;
+    height: 174px;
+    border: 3px solid black;
+    background-color: antiquewhite;
+
+ }
+ .productImagen {
+     width: 176px;
+     height: 174px;
+     filter: drop-shadow(2px 4px 6px black);
+ }
+
+ .priceTrash {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     width: 170px;
+ }
+ .buttonDelete{
+    background-color: transparent;
+    border: none;
+ }
+ .form{
+    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ }
+ .formSection {
+     width: 472px;
+     height: 517px;
+     padding: 40px;
+     display: flex;
+     gap: 5px;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+ }
+
+ .sendClean{
+    background-color: #03318C;
+    width: 182px;
+    height: 55px;
+    padding: 0 10px 0 10px;
+    border: 3px solid #03318C;
+    border-radius: 15px;
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: center;
+    color: white;
+ }
+
+ .sendClean:nth-child(2){
+    color: #03318C;
+    background-color: white ;
+ }
+
+

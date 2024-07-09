@@ -1,0 +1,38 @@
+{"productos":[
+    {
+        "name":"Mass gainer",
+        "price":"35.00",
+        "image":"https://suplementos.b-cdn.net/proteinas/super-mass-gainer-vainilla-6lbs-500x500.webp",
+        "id":"0"
+    },
+    {
+        "name":"Straps",
+        "price":"10.00",
+        "image":"https://rlgrips.com/wp-content/uploads/2024/02/strap-rojo-transparente.png",
+        "id":"0"
+    },
+    {
+        "name":"Cinturon",
+        "price":"35.00",
+        "image":"https://s.alicdn.com/@sc04/kf/Hdfa5bbefe3b34cd5b887bb47a45f47cd2.png_300x300.jpg",
+        "id":"0"
+    },
+    {
+        "name":"Straps",
+        "price":"10.00",
+        "image":"https://rlgrips.com/wp-content/uploads/2024/02/strap-rojo-transparente.png",
+        "id":"0"
+    },
+    {
+        "name":"Cinturon",
+        "price":"35.00",
+        "image":"https://s.alicdn.com/@sc04/kf/Hdfa5bbefe3b34cd5b887bb47a45f47cd2.png_300x300.jpg",
+        "id":"0"
+    },
+    {
+        "name":"Mass gainer",
+        "price":"35.00",
+        "image":"https://suplementos.b-cdn.net/proteinas/super-mass-gainer-vainilla-6lbs-500x500.webp",
+        "id":"0"
+    }
+]}
