@@ -23,6 +23,13 @@ async function schemaCreateProduct(name,price,url){
 
 }
 
+const deleteCard = (id)=>{
+    console.log("eliminar a ",id)
+    return fetch(`http://localhost:3001/productos/${id}`,{
+        method: "DELETE"
+    })
+}
+
 export const conexion={
-    conexionDb,schemaCreateProduct
+    conexionDb,schemaCreateProduct,deleteCard
 }

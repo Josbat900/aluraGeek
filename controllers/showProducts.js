@@ -4,7 +4,7 @@ const $ = el => document.querySelector(el);
 
 const $productList = $('#productList');
 
-function newCard(name,price,url) {
+function newCard(name,price,url,id) {
     const card = document.createElement("div");
     card.className = "product";
     card.innerHTML = `
@@ -15,19 +15,24 @@ function newCard(name,price,url) {
                             <div class="priceTrash">
                                 <p class="price">$ ${price}12</p>
                                 <div class="trash">
-                                    <button>
+                                    <button id="${id}">
                                         <img src="svgs/trash.svg" alt="trash">
                                     </button>
                                 </div>
                             </div>
     `
+    const btn = card.querySelector("button")
+    btn.addEventListener("click",()=>{
+        const id = btn.id;
+        conexion.deleteCard(id)
+    })
     return card
 }
 
 async function conexionDb(){
     const list = await conexion.conexionDb()
 
-    list.forEach(producto=>$productList.appendChild(newCard(producto.name,producto.price,producto.url)))
+    list.forEach(producto=>$productList.appendChild(newCard(producto.name,producto.price,producto.url,producto.id)))
 }
 
 conexionDb()
